@@ -1,5 +1,31 @@
 {
+  "name": "jynx-saas",
+  "version": "1.0.0",
+  "description": "> AI-powered live chat platform with bot-to-human handoff, real-time messaging, and website integration capabilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mickythegeek/jynx-saas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mickythegeek/jynx-saas/issues"
+  },
+  "homepage": "https://github.com/mickythegeek/jynx-saas#readme",
   "dependencies": {
-    "dotenv": "^17.2.0"
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
